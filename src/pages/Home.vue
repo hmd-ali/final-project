@@ -165,7 +165,7 @@
                         STEP INTO THE <br/>SPOTLIGHT
                     </h2>
                     <p>
-                        Designed to do what others can’t, Unis sneakers meld forward-thinking, sustainability, and bold style so that you can make a statement with every step.
+                        Designed to do what others can’t, SNKRS sneakers meld forward-thinking, sustainability, and bold style so that you can make a statement with every step.
                     </p>
                     <button>
                         <span class="icon">
@@ -208,7 +208,7 @@
                         WEAR THE FUTURE
                     </h2>
                     <p>
-                        Unis sneakers are unlike any shoe you’ve seen before. Never mass-produced, each pair is 3D printed into existence when you place your order, combining innovative design with cutting-edge technology to take the next step in sustainable fashion.
+                        SNKRS sneakers are unlike any shoe you’ve seen before. Never mass-produced, each pair is 3D printed into existence when you place your order, combining innovative design with cutting-edge technology to take the next step in sustainable fashion.
                     </p>
                     <button>
                         <span class="icon">
