@@ -58,7 +58,7 @@
             <router-link @click="update" :to="({name: 'home'})" class="navigation-link">
                 home
             </router-link>
-            <router-link @click="update" :to="({name: 'about'})" class="navigation-link">
+            <router-link @click="update" :to="({name: 'products'})" class="navigation-link">
                 our shoes
             </router-link>
             <router-link @click="update" :to="({name: 'about'})" class="navigation-link">

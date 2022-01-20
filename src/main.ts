@@ -6,11 +6,15 @@ import router from '@/router'
 import { createPinia } from 'pinia'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(
     faBars,
+    faFacebookF,
+    faInstagram,
+    faShoppingCart
 )
 
 

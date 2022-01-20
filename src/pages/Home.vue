@@ -1,8 +1,8 @@
 <script setup lang="ts">
     import { gsap } from 'gsap'
     import { ScrollTrigger } from 'gsap/all';
-    import { onMounted } from 'vue';
     gsap.registerPlugin(ScrollTrigger)
+    import { onMounted } from 'vue';
 
     onMounted(() => {
         gsap.fromTo('#hero-header-1', {
@@ -61,9 +61,9 @@
             rotate: '30deg',
             scale: .4,
             scrollTrigger: {
-                trigger: '#trigger',
-                start: 'top bottom',
-                end: 'top center',
+                trigger: '#hero',
+                start: 'top top',
+                end: 'top -30%',
                 scrub: true
             }   
         })
@@ -86,13 +86,13 @@
 
 <template>
     <section class="home">
-        <div class="hero">
+        <div class="hero" id="hero">
             <div class="hero-image-container">
                 <div class="hero-image">
                     <img id="hero-image" src="@/assets/images/hero/lava-black-side_720x.webp" alt="">
                 </div>
             </div>
-            <div class="xl:w-full flex flex-col xl:ml-10 xl:mt-20">
+            <div class="xl:w-full flex flex-col xl:ml-10">
                 <div class="hero-header">
                     <h1 id="hero-header-1">
                         the new
@@ -317,7 +317,8 @@
         @apply block text-primary text-opacity-60 w-72 leading-5
     }
     .hero-image-container {
-        @apply relative w-full flex flex-col items-center pb-20 px-6 overflow-x-hidden
+        @apply relative w-full flex flex-col items-center pb-20 px-6 overflow-x-hidden;
+        @apply lg:p-40 lg:pt-0
     }
     .hero-image {
         @apply relative w-full aspect-square rounded-full bg-texture bg-cover flex items-center justify-center;
@@ -374,7 +375,7 @@
         @apply relative w-full flex flex-col items-center bg-white pb-20 xl:flex-row-reverse xl:odd:flex-row
     }
     .info-container-image {
-        @apply -mt-8 w-full px-10
+        @apply -mt-8 w-full px-10;
     }
     .info-text {
         @apply relative w-full flex flex-col mt-8 px-14

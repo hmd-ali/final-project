@@ -23,3 +23,9 @@ body {
 .no-scroll {
     @apply overflow-y-hidden
 }
+
+@layer components {
+    .product {
+        @apply bg-red-400
+    }
+}
