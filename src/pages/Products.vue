@@ -10,7 +10,7 @@
 
 <template>
     <div class="realtive w-full pt-40">
-        <div class="realtive w-full flex flex-col items-center text-3xl uppercase translate-x-4 font-bold">
+        <div class="realtive w-full flex flex-col items-center text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl uppercase translate-x-4 font-bold">
             <span>our shoes</span>
             <span class="-translate-x-5 text-accent">find your</span>
             <span class="translate-x-5">style</span>

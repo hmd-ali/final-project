@@ -39,8 +39,8 @@
     <div class="relative w-full pt-10">
         <div v-if="product" class="relative w-full">
             <div class="relative w-full flex flex-col lg:flex-row">
-                <div class="relative w-full">
-                    <img :src="product.imgurl" alt="">
+                <div class="relative w-full max-h-[70vh]">
+                    <img :src="product.imgurl" alt="" class="h-full">
                 </div>
                 <div class="relative w-full py-8 px-5 bg-primary text-white divide-y-2 divide-accent divide">
                     <h2 class="text-xl">

@@ -30,11 +30,11 @@
                 </div>
             </div>
         </div>
-        <div class="relative w-full flex flex-col h-full justify-center items-center" v-else>
+        <div class="relative w-full flex flex-col h-screen justify-center items-center" v-else>
             <p class="text-black text-xl text-center text-opacity-60">
-                Your cart is empty
+                Your cart is empty :(
             </p>
-            <button class="relative flex items-center justify-center px-4 py-2 rounded bg-black text-accent"
+            <button class="relative flex items-center justify-center px-4 py-2 mt-20 rounded bg-black text-accent"
                 @click="cartStore.closeCartModal()"
             >
                 continue shopping

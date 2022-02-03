@@ -32,12 +32,9 @@
                 our shoes
             </router-link>
             <router-link :to="({name: 'about'})" class="navigation-link">
-                our story
-            </router-link>
-            <router-link :to="({name: 'about'})" class="navigation-link">
                 sustainability
             </router-link>
-            <router-link :to="({name: 'about'})" class="navigation-link">
+            <router-link :to="({name: 'contact'})" class="navigation-link">
                 contact
             </router-link>
         </nav>
